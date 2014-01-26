@@ -1,0 +1,21 @@
+{
+  "name": "level-r-hash-map",
+  "description": "replicate-able hash maps in level",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/level-r-hash-map.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "monotonic-timestamp": "0.0.8",
+    "level-fix-range": "~2.0.0",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
